@@ -1,0 +1,5 @@
+95429de30a547bf83370b58a270ebe303a52644f77fd6e801e3ffe2e7e953e17  OG/MAIN/bnbridge-main-v004.uf2
+aeea1293262d7eebfe1ee14e204078f24ca15917235f7a50d1818a7b6efdd960  OG/DISPLAY/bnbridge-display-bootloader-v001.uf2
+fc6af5a3b75bcab768c90043a2dc0d62357c80f8bcd0de1d25ed1c62288ab775  Bottlenose/ESP32-C6 bootloader/bootloader.bin
+902824f69ce7e6a0e6aa229fe4a28bc7a988cf31e0557f3313fa86fbe06422b6  Bottlenose/partition table/partitions.bin
+dc9d9ef713057bfc2cb7f07cd0d2f90e049b6b2b5e6ac875dfe2eacfcc3225c1  Bottlenose/adjusted GhostESP v2.2.2 application/firmware.bin

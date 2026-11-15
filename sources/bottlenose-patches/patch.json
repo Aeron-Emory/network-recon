@@ -1,0 +1,28 @@
+{
+  "original_sha256": "df56e655c2ac4a06e88b8eb335bdd534d288801dce9457eeb31a0ee87f577295",
+  "patched_sha256": "dc9d9ef713057bfc2cb7f07cd0d2f90e049b6b2b5e6ac875dfe2eacfcc3225c1",
+  "baud_after": 460800,
+  "usb_capture_write_timeout_ticks": 10,
+  "instructions": [
+    {
+      "address": "0x420afb94",
+      "file_offset": 1833876,
+      "before": "f16793870720",
+      "after": "b7170e008583"
+    },
+    {
+      "address": "0x420afe36",
+      "file_offset": 1834550,
+      "before": "f16793870720",
+      "after": "b7170e008583"
+    },
+    {
+      "address": "0x420af986",
+      "file_offset": 1833350,
+      "before": "0146",
+      "after": "2946"
+    }
+  ],
+  "checksum_offset": 3783407,
+  "source_rebuild": false
+}

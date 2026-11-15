@@ -1,0 +1,49 @@
+{
+  "og_bridge_version": "004",
+  "display_bootloader_version": "001",
+  "bottlenose_release": "GhostESP Revival v2.2.2 generic ESP32-C6, binary-adjusted",
+  "expansion_uart": {
+    "baud": 460800,
+    "format": "8N1",
+    "rts_cts": false
+  },
+  "inter_cpu_baud": 6250000,
+  "c6_flash_bytes": 4194304,
+  "files": [
+    {
+      "path": "OG/MAIN/bnbridge-main-v004.uf2",
+      "processor_role": "OG RP2040 MAIN (includes DISPLAY application)",
+      "flash_offset": null,
+      "bytes": 510976,
+      "sha256": "95429de30a547bf83370b58a270ebe303a52644f77fd6e801e3ffe2e7e953e17"
+    },
+    {
+      "path": "OG/DISPLAY/bnbridge-display-bootloader-v001.uf2",
+      "processor_role": "OG RP2040 DISPLAY bootloader",
+      "flash_offset": null,
+      "bytes": 102912,
+      "sha256": "aeea1293262d7eebfe1ee14e204078f24ca15917235f7a50d1818a7b6efdd960"
+    },
+    {
+      "path": "Bottlenose/ESP32-C6 bootloader/bootloader.bin",
+      "processor_role": "ESP32-C6 bootloader",
+      "flash_offset": "0x0",
+      "bytes": 19584,
+      "sha256": "fc6af5a3b75bcab768c90043a2dc0d62357c80f8bcd0de1d25ed1c62288ab775"
+    },
+    {
+      "path": "Bottlenose/partition table/partitions.bin",
+      "processor_role": "ESP32-C6 partition table",
+      "flash_offset": "0x8000",
+      "bytes": 3072,
+      "sha256": "902824f69ce7e6a0e6aa229fe4a28bc7a988cf31e0557f3313fa86fbe06422b6"
+    },
+    {
+      "path": "Bottlenose/adjusted GhostESP v2.2.2 application/firmware.bin",
+      "processor_role": "ESP32-C6 GhostESP Revival v2.2.2 adjusted application",
+      "flash_offset": "0x10000",
+      "bytes": 3783440,
+      "sha256": "dc9d9ef713057bfc2cb7f07cd0d2f90e049b6b2b5e6ac875dfe2eacfcc3225c1"
+    }
+  ]
+}

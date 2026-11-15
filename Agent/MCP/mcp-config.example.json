@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "freewili-recon": {
+      "command": "C:\\path\\to\\MCP\\.venv\\Scripts\\python.exe",
+      "args": [
+        "C:\\path\\to\\MCP\\server.py"
+      ],
+      "disabled": false
+    }
+  }
+}

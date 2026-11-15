@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/GhostESP-Revival/GhostESP",
+  "tag": "v2.2.2",
+  "commit": "98d92efb8202cb4139e995600e4357ae50bbaab6",
+  "source_url": "https://codeload.github.com/GhostESP-Revival/GhostESP/tar.gz/98d92efb8202cb4139e995600e4357ae50bbaab6",
+  "archive": "GhostESP-v2.2.2-build-source.tar.xz",
+  "sha256": "d05fbf5109e3fc94eec76b4deb2777bacfbf01c55efab874a9421d878784aae4",
+  "files": 3628,
+  "uncompressed_bytes": 331055752,
+  "omitted_files": 3448,
+  "omissions": [
+    "docs/ (website/documentation history)",
+    "ota_updater/ (separate host updater)",
+    "plugins/examples/ (optional external examples, not the generic C6 application)",
+    "*.exe, *.elf, *.uf2 (prebuilt executables/images)"
+  ],
+  "application_esp_idf": "v6.1-dirty (from release image descriptor; upstream build used a customized ESP-IDF checkout)"
+}
