@@ -43,8 +43,4 @@ Maestro GPIO/debug features are not integrated. CC1101 reception has not been ve
 
 Use only in an authorized environment. Remote observations/results go to AWS/Bedrock; saved raw runs remain on the PC until requested through tools.
 
-## Verify and share
-
-Run `python scripts/verify_package.py` from this folder. Offline test instructions are in `Agent/MCP/README.md`; they require neither hardware nor AWS credentials. See [docs/VALIDATION.md](docs/VALIDATION.md) for the checks performed on this package.
-
 See [licenses/README.md](licenses/README.md). This package combines differently licensed components; no blanket license is asserted. In particular, the FreeWili BSP uses a hardware-restricted license, not ordinary MIT.
